@@ -1,0 +1,43 @@
+# ─── React Native Frontend ─────────────
+PhysiqueAnalysisApp/node_modules/
+PhysiqueAnalysisApp/.expo/
+PhysiqueAnalysisApp/dist/
+PhysiqueAnalysisApp/web-build/
+PhysiqueAnalysisApp/expo-env.d.ts
+PhysiqueAnalysisApp/.DS_Store
+
+# Native builds / keys
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+PhysiqueAnalysisApp/.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Env vars
+.env*.local
+backend/.env
+
+# TypeScript
+*.tsbuildinfo
+
+# ─── Python Backend ─────────────
+backend/__pycache__/
+backend/.venv/
+backend/env/
+backend/venv
+*.pyc
+*.pyo
+*.pyd
