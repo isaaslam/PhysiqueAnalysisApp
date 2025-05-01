@@ -43,7 +43,8 @@ export default function HomeScreen() {
           uploadedAt: serverTimestamp(),
         });
 
-        alert('Image uploaded successfully!');
+        {/*alert('Image uploaded successfully!');*/}
+        router.push('/results')
       }
     } catch (error) {
       console.error('Image upload failed:', error);
