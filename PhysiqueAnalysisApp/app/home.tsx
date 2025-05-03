@@ -96,6 +96,16 @@ export default function HomeScreen() {
 
       <Button
         mode="contained"
+        onPress={() => router.push('/myphotos')}
+        style={{ backgroundColor: '#7B61FF', marginBottom: 20 }}
+        labelStyle={{ color: 'white' }}
+      >
+        View My Photos
+      </Button>
+
+
+      <Button
+        mode="contained"
         onPress={handleLogout}
         style={{ backgroundColor: 'red', marginTop: 40 }}
         labelStyle={{ color: 'white' }}
