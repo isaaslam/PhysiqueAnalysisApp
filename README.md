@@ -21,10 +21,12 @@ python -m venv venv
 Windows: venv\Scripts\activate
 Mac/Linux: source venv/bin/activate
 
-4. **Install dependencies:**
+4. Add Firebase config
+
+5. **Install dependencies:**
 pip install -r requirements.txt
 
-5. **Run Flask**
+6. **Run Flask**
 python app.py
 
 ## Frontend Setup (React Native)
