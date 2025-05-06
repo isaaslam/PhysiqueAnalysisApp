@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useRouter } from 'expo-router';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '../src/firebase/firebase'; // Correct path
+import { auth } from '../src/firebase/firebase';
 
 export default function Index() {
   const router = useRouter();
